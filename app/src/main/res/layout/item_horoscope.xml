@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width=”match_parent”
-        android:layout_height=”wrap_content”
-        android:orientation=”horizontal”
-        android:paddingVertical=”8dp”
-        android:paddingHorizontal=”16dp”
+    android:layout_width=”match_parent”
+    android:layout_height=”wrap_content”
+    android:orientation=”horizontal”
+    android:paddingVertical=”8dp”
+    android:paddingHorizontal=”16dp”
     >
     <ImageView
-        android:id=”@+id-/nameImageView”
+        android:id=”@+id-/signImageView”
         android:layout_width=”64dp”
         android:layout_height=”64dp”
         android:src=”drawable/aries_icon”
@@ -28,6 +28,7 @@
             android:textStyle=”bold”
         />
         <TextView
+            android:id=”@+id-/datesTextView”
             android:layout_width=”match_parent”
             android:layout_height=”wrap_content”
             android:text=”Horoscope dates”
